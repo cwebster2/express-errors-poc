@@ -18,6 +18,12 @@ const asyncRoute = (asyncFn) => {
     };
 };
 
+// Middleware
+app.use((req, res, next) => {
+    console.debug("In middleware");
+    next("route");
+});
+
 // A normal route that works
 app.get("/normal", (req, res) => res.send("Hello World"));
 
