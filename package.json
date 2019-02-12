@@ -10,14 +10,9 @@
   "author": "Casey Webster",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "cors": "^2.8.5",
-    "csurf": "^1.9.0",
     "express": "^4.16.4",
-    "express-session": "^1.15.6",
     "morgan": "^1.9.1",
-    "spdy": "^4.0.0",
-    "uuid": "^3.3.2",
-    "x-xss-protection": "^1.1.0"
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "eslint": "^5.9.0",
